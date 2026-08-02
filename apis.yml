@@ -1,9 +1,28 @@
 aid: yoshi
 name: Yoshi
-description: 'Yoshi is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: mobility. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Yoshi Mobility is a mobile vehicle-care and fleet-services platform founded
+  in 2015 (Y Combinator S16). It brings automotive services to the vehicle wherever it is
+  parked: mobile maintenance and oil changes, car washes and detailing, tire and battery
+  service, EV charging, and live-video vehicle inspections that produce API-ready, signed
+  results for fleets and rideshare platforms. Yoshi originally pioneered on-demand fuel
+  delivery (that division was acquired by EZFill Holdings in January 2025) and now
+  concentrates on mobile auto care and inspection technology, backed by strategic investors
+  including General Motors Ventures, Bridgestone, and ExxonMobil. Integrations and APIs are
+  offered to partners through direct sales rather than a public self-service developer
+  portal.'
 url: https://raw.githubusercontent.com/api-evangelist/yoshi/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.yoshimobility.com/assets/logos/logo-yomo-white.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +31,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Mobility
+- Automotive
+- Fleet
+- Vehicle Inspections
+- EV Charging
+- Car Care
+- Field Services
 apis: []
+common:
+- type: Website
+  url: https://www.yoshimobility.com/
+- type: Blog
+  url: https://blog.yoshimobility.com
+- type: Support
+  url: https://www.yoshimobility.com/contact/
+- type: HelpCenter
+  url: https://www.yoshimobility.com/faq/
+- type: TermsOfService
+  url: https://www.yoshimobility.com/terms/
+- type: PrivacyPolicy
+  url: https://www.yoshimobility.com/privacy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
