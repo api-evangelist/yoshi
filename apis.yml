@@ -51,6 +51,15 @@ tags:
 - Vehicle Inspections
 - EV Charging
 - Car Care
+- Field Service
+tags_raw:
+- Company
+- Mobility
+- Automotive
+- Fleet
+- Vehicle Inspections
+- EV Charging
+- Car Care
 - Field Services
 apis: []
 common:
